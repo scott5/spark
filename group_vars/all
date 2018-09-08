@@ -1,9 +1,9 @@
 user:
-    name: pigmonkey
+    name: scott5
     uid: 1000
-    group: pigmonkey
+    group: scott5
     shell: /usr/bin/zsh
-    email:  peter@havenaut.net
+    email:  scott.murphy@arrow-eye.com
     log:
         dir: log
         rotate: 8
@@ -48,11 +48,6 @@ network:
         interval: 0
     trusted_uuid:
         - b21284e6-01af-492f-8bea-45a69ef22a23
-        - 4ddd6988-aad1-4927-b650-ea7d24e0138b
-        - f9b3c62c-2d9f-450a-ac9b-528ba4c85ded
-        - b94375d1-70f8-424f-a6d7-dc52d0ab7288
-        - f74f2bd5-8748-4e1e-98f9-dae2dd44b916
-        - faeec88c-79ec-4840-ab25-ea356af8a81b
 
 editors:
     - gvim
@@ -262,12 +257,13 @@ base_fonts:
     - noto-fonts
     - ttf-dejavu
     - ttf-liberation
-    - ttf-symbola
     - gsfonts
     - tex-gyre-fonts
     - ttf-droid
     - ttf-ubuntu-font-family
     - ttf-inconsolata
+#    - ttf-symbola
+
 
 aur_fonts:
     - ttf-signika
@@ -276,10 +272,10 @@ aur_fonts:
     - ttf-opensans
     - ttf-merriweather-sans
     - ttf-merriweather
-    - ttf-carlito
     - ttf-caladea
     - ttf-courier-prime
     - ttf-heuristica
+#    - ttf-carlito
 
 syncthing:
     run_on: trusted
